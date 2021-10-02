@@ -1,0 +1,44 @@
+.body{
+    margin: 0px 10rem;
+}
+
+#carouselExampleControls{
+    margin: 0px 0rem;
+}
+
+#member-heading{
+    margin: 2% ;
+    align-items: center;
+    text-align: center;
+}
+
+.member-item-main{
+    margin-top: 2rem;
+}
+
+.carousel-item-image{
+    object-fit: cover;
+    width: 100%;
+    height: 30em;
+}
+
+.member-item-main-img{
+
+    width: 160px;
+    height: 160px;
+}
+
+@media only screen and (max-width: 600px) {
+    .body{
+        margin: 0px 1rem;
+    }
+
+    #carouselExampleControls{
+        margin: 0px 0rem;
+    }
+
+    .carousel-item-image{
+        height: 20em;
+    }
+
+}
